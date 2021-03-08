@@ -16,7 +16,7 @@ public class TestSimpleCircle {
         double area = circle1.getArea();
         double Circumference = circle1.getCircumference();
         System.out.println("Radius : "+ radius);
-        System.out.println("Area :"+ area);
-        System.out.println("Circumference :"+ Circumference);
+        System.out.println("Area : "+ area);
+        System.out.println("Circumference : "+ Circumference);
     }
 }
