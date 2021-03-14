@@ -12,7 +12,7 @@ class matematika{
     int a;
     int b;
     public matematika(){
-        this.a = 1;
+        this.a = 2;
         this.b = 1;
     }
     public matematika(int angka){
@@ -53,7 +53,7 @@ public class matematikaDemo {
         System.out.println("Perkalian : "+calc2.a+" x "+calc2.b+" = "+ calc2.perkalian());
         System.out.println("Pembagian : "+calc2.a+" / "+calc2.b+" = "+ calc2.pembagian());
         
-        matematika calc3 = new matematika(3,8);
+        matematika calc3 = new matematika(18,8);
         System.out.println("------Two Parameter------");
         System.out.println("Pertambahan : "+calc3.a+" + "+calc3.b+" = "+ calc3.pertambahan());
         System.out.println("Pengurangan : "+calc3.a+" - "+calc3.b+" = "+ calc3.pengurangan());
