@@ -86,7 +86,7 @@ public class loginPage extends javax.swing.JFrame {
     }//GEN-LAST:event_toRegisterActionPerformed
 
     private void toAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toAdminActionPerformed
-        adminPage a = new adminPage(); 
+        adminDashboard a = new adminDashboard(); 
         a.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_toAdminActionPerformed
